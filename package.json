@@ -1,0 +1,23 @@
+{
+  "name": "aurelia-webpack-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web": "webpack-dev-server --hot -inline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aurelia-webpack-plugin": "^2.0.0-rc.2",
+    "css-loader": "^0.28.4",
+    "html-loader": "^0.4.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "aurelia-bootstrapper": "^2.1.1"
+  }
+}
